@@ -25,7 +25,7 @@ class LibraryList extends Component {
   }
 
   render() {
-    console.log('props: ', this.props);
+    console.log('props from librarylist.js : ', this.props);
     return(
       <ListView
         dataSource={this.dataSource}
